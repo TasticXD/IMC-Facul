@@ -26,10 +26,6 @@ const Camera = function() {
     </View>)
 }
 
-function toggleCameraFacing() {
-    setFacing(current => (current === 'back' ? 'front' : 'back'));
-}
-
 const styles = StyleSheet.create({
     container: {
       flex: 1,
